@@ -3,6 +3,6 @@
 
 This is a ten minute “Coffee Break Course” outlining how to use Gulp and associated plugins to build an SVG sprite system.
 
-[SVG Icons from WordPress Dashboard](https://github.com/ryelle/WP-Dashboard-SVG/tree/master/icons/src)
+[SVG Icons from WordPress Dashboard](https://github.com/WordPress/dashicons/tree/master/svg)
 
 **Available on [Envato Tuts+](https://tutsplus.com/courses) from August, 2016**
