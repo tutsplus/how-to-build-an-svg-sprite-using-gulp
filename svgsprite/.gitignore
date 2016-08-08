@@ -1,0 +1,19 @@
+# temp dirs
+.sass-cache
+
+# Sourcemaps
+*.*.map
+
+# dotfiles
+*.log
+.publish/
+.DS_Store
+
+#dirs
+node_modules/
+app/bower_components
+lib/*
+
+#files
+app/*.html
+app/css/*.css

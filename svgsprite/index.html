@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>SVG Sprite w/Gulp</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script>
+      var ajax = new XMLHttpRequest();
+
+      ajax.open('GET', '/icons/sprite.svg', true);
+
+      function appendSVGSprite() {
+        var svgsprite = ajax.responseText;
+        document.body.insertAdjacentHTML('afterbegin', svgsprite);
+      }
+
+      ajax.onload = function(e) {
+        appendSVGSprite();
+      }
+
+      ajax.send();
+    </script>
+  </head>
+  <body>
+
+    <svg class="icon">
+      <use xlink:href="#admin-links"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-media"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-multisite"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-network"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-page"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-plugins"></use>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#admin-post"></use>
+    </svg>
+
+  </body>
+</html>

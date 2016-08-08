@@ -1,0 +1,26 @@
+{
+  "name": "SVGSprite",
+  "description": "svg sprite demo for coffee break course",
+  "version": "1.0.0",
+  "author": "DennisGaebel",
+  "homepage": "",
+  "main": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-load-plugins": "0.8.0",
+    "gulp-svgmin": "1.2.2",
+    "gulp-svgstore": "5.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-cheerio": "0.6.2"
+  },
+  "devDependencies": {
+    "del": "1.1.1",
+    "gulp-connect": "4.1.0",
+    "gulp-livereload": "3.7.0"
+  }
+}
